@@ -1,47 +1,17 @@
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
-
-.footer-top {
+.footer-wrapper {
+    filter: drop-shadow(0px 2px 2.5px rgba(44, 46, 51, 0.4));
     background-color: #222222;
 }
 
-.column-main {
+.footer-bottom {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    background-color: #151515;
+    color: #626263;
+    font-family: "Open Sans";
+    font-weight: 600;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    ;
-}
-
-.column-2 {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-    ;
-}
-
-.column-3 {
-    display: flex;
-    align-items: center;
-    width: 25%;
-}
-
-.column-social {
-    display: flex;
-    flex-direction: row;
-    width: 25%;
 }
 
 .send {
@@ -58,40 +28,30 @@
     border: 0px;
 }
 
-.footer-bot {
-    display: flex;
-    background-color: #151515;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 25px;
-    color: #9699a6;
-    font-family: "Ubuntu";
-    font-weight: 400;
-}
-
-img {
-    height: 10px;
-}
-
-.logo {
-    width: 70px;
-    height: 30px;
-    display: flex;
-    align-self: center;
-}
-
-.social {
+.contact {
     width: 50px;
     height: 50px;
-    float: left;
-    margin-right: 10px;
 }
 
-.politican {
+.footer__logo {
+    width: 130px;
+    height: 30px;
+}
+
+.footer-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 25%;
 }
 
